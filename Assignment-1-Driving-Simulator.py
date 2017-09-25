@@ -7,7 +7,7 @@ maxspeed = a * t #runs formula : v = u + at
 for dur in range(0, t + 1): #dur represents duration of trip
     answer = (0.5 * a * (dur * dur)) #runs formula : S = (0.5)at2
     distance = int(answer) #converts answer from FLOAT to INTEGER, since in line 13 we are comparing with an INTEGER
-    starreddistance = int(distance/20) #scales distance to be represented by stars
+    starreddistance = int(distance/10) #scales distance to be represented by stars
     print("Duration", dur, "second(s)", end="") #prints duration gradually
     print(" ", "Distance", "*" * starreddistance)
 if distance>=s: #compares set distance with actual distance travelled
