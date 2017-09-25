@@ -1,2 +1,2 @@
 # Assignment-1-Driving-Simulator
-This is the driving simulator assignment.
+This is the Driving Simulator Assignment.
